@@ -158,10 +158,10 @@ contract EventManager {
         );
     }
 
-    // function updateEvent() external {
+    
 
     //}
-function createEvent(
+function createEventWithoutMaxRegistrations(
         address _nftAddress,
         string memory _eventName,
         EventType _eventType
